@@ -44,7 +44,7 @@ function setupparkingmanager(){
 function updatequeue(){
     for(i=1;i<=5;i++){
         if(i<=queueitems){
-            document.getElementById('queue'+i.toString()).src = 'car.png';
+            document.getElementById('queue'+i.toString()).src = 'tdcargeneric.png';
         }else{
             document.getElementById('queue'+i.toString()).src = 'tdcargeneric.png';
         }
