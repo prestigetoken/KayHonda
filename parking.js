@@ -94,7 +94,7 @@ function carexit(slot){
 function generatenewcar(slot){
     var space = document.getElementById('parkingspace');
     let img = document.createElement('img');
-    img.src = 'car.png';
+    img.src = 'tdcargeneric.png';
     img.className = 'new-car-origin';
     img.style.width = (w*.8) * .1 + 'px';
     img.id = 'car'+slot.toString();
