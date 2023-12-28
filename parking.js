@@ -46,7 +46,7 @@ function updatequeue(){
         if(i<=queueitems){
             document.getElementById('queue'+i.toString()).src = 'car.png';
         }else{
-            document.getElementById('queue'+i.toString()).src = 'carfaded.png';
+            document.getElementById('queue'+i.toString()).src = 'tdcargeneric.png';
         }
     }
 }
